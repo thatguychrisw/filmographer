@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  class="flex h-screen"
+>
+  <div
+    class="m-auto w-11/12"
+  >
+    <header>
+      <h1
+        class="text-center text-6xl p-8 text-white"
+      >
+        Filmographer
+      </h1>
+    </header>
+    <div
+      class="bg-white rounded w-5/12 mt-4 p-2 flex flex-col m-auto shadow-xl"
+    >
+      <div
+        class="flex"
+      >
+        <input
+          class="w-9/12 outline-none p-2 border-gray-400"
+          data-testid="fetch-filmography"
+          placeholder="Search for an actor"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      class="rounded w-2/3 mt-4 p-2 flex flex-col m-auto"
+    />
+  </div>
+</div>
+`;
